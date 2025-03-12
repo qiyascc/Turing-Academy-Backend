@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "cc-django-layout"
+version = "1.0.0"
+description = "Django Layout for epic development and production."
+authors = ["Qiyas <qiyasturk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.1.6"
+djangorestframework = "^3.15.2"
+django-jazzmin = "^3.0.1"
+goodconf = "^6.0.0"
+django-alive = "^2.0.0"
+gunicorn = "^23.0.0"
+asgiref = "^3.8.1"
+certifi = "^2025.1.31"
+charset-normalizer = "^3.4.1"
+django-cors-headers = "^4.7.0"
+drf-yasg = "^1.21.10"
+idna = "^3.10"
+inflection = "^0.5.1"
+packaging = "^24.2"
+pillow = "^11.1.0"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.7.1"
+pydantic_core = "^2.27.2"
+python-dotenv = "^1.0.1"
+pytz = "^2025.1"
+PyYAML = "^6.0.2"
+requests = "^2.32.3"
+sqlparse = "^0.5.3"
+typing_extensions = "^4.12.2"
+uritemplate = "^4.1.1"
+urllib3 = "^2.3.0"
+annotated-types = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+black = "^25.1.0"
+bandit = "^1.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,9 @@
+.login-logo h1 picture img {
+    height: 100px;
+    width: auto;
+}
+
+#jazzy-logo img {
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
