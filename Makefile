@@ -3,7 +3,7 @@ PYTHON = python3
 POETRY = poetry
 MANAGE = $(PYTHON) manage.py
 
-deploy:
+setup:
 	bash setup.sh
 
 all: install run
